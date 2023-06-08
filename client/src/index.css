@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font-color-black: #30564D;
+}
+/* 
+html, body, body > div {
+  height: 100%;
+} */
+
+body {
+  font-family:  'Montserrat', 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(55.18deg, rgba(186, 243, 230, 0.85) -13.17%,
+      rgba(186, 243, 230, 0.5) -7.94%, rgba(193, 255, 241, 0.14) 38.1%,
+      rgba(177, 255, 237, 0.24) 49.85%, rgba(200, 245, 235, 0.806444) 83.28%);
+  color: var(--main-color-black);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main--font-color-black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

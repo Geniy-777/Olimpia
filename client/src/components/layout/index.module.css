@@ -1,0 +1,78 @@
+.main {
+  position: relative;
+  max-width: 1440px;
+  padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  margin-inline: auto;
+  overflow-x: hidden;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  outline: none;
+  
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: .3s ease;
+}
+
+.button:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 4px 4px 25px #6BB8A6;
+}
+
+.button:focus{
+  transform: scale(0.95);
+}
+
+.buttonAbout {
+  width: 280px;
+  height: 70px;
+  background: #0CAB87;
+}
+
+.mainBackgroundImg {
+  background: #30947C;
+  display: flex;
+  width: 100vw;
+  max-width: 1920px;
+  max-height: 620px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  opacity: .8;
+}
+
+.mainInfoBoard {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px 55px;
+  max-width: 950px;
+  min-height: 530px;
+  gap: 20px;
+}
+
+.mainBoardTitle {
+  font-weight: 700;
+  font-size: 75px;
+}
+
+.mainBoardSubtitle {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.mainBoardText {
+  font-weight: 700;
+  font-size: 20px;
+}
